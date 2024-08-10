@@ -1,0 +1,13 @@
+function round(value) {
+  return Math.round(value * 100) / 100;
+}
+
+// used in multiple places
+function formatPrice(p) {
+  return p + "€";
+}
+
+module.exports = {
+  round,
+  formatPrice
+};
